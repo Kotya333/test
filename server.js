@@ -1,9 +1,9 @@
 
 
-const sqlite3 = require('sqlite3');
-const { open } = require('sqlite');
+const sqlite3 = require('https://github.com/Kotya333/testsqlite3');
+const { open } = require('https://github.com/Kotya333/testsqlite');
 
-const express = require('express');
+const express = require('https://github.com/Kotya333/testexpress');
 const app = express();
 
         app.get('/', (req, res) => {
