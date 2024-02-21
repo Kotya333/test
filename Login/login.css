@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+input {
+    outline: 0;
+    border-radius: 10px;
+    border: 2px solid #BA55D3;
+    width: 20vw;
+    height: 5vh;
+    padding: 5px 5px 5px 10px;
+    font-size: 20px;
+    /* Убрано margin-bottom */
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-image: url(/img/Main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html{
+    margin: 0;
+}
+
+.login-card {
+    display: flex;
+    background-color: rgba(0,0,0, 0.2);/*#9370DB;*/
+    border: 2px solid #A99CF4;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Изменено с align-self на justify-content */
+    padding: 15px;
+    width: 25vw;
+    height: 60vh;
+}
+
+.login-field {
+    display: flex; /* Добавлено */
+    flex-direction: column; /* Добавлено */
+    align-items: center; /* Добавлено */
+    margin-bottom: 25px; /* Перемещено из input в .login-field для равномерного расстояния между полями */
+}
+
+.lock-icon {
+    position: relative;
+    top: -10.25vh;
+    left: 8vw;
+    display: block;
+    fill: rgba(0,0,0,0.85); /* Цвет иконки можно изменить здесь */
+    width: 25px;
+    height: 25px;
+}
+
+.lock-icon:hover{
+    cursor: pointer;
+}
+
+.login-btn {
+    display: inline-block !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 3px solid #ffffff !important;
+    border-radius: 16px !important;
+    font-size: 16px !important;
+    padding: 17px 45px !important;
+    transition: all 0.6s ease !important;
+}
+.login-btn:hover{
+    cursor: pointer;
+    text-decoration: none !important;
+    background-color: #45aa8a !important;
+    color: #f4f9f5 !important;
+    border-color: #ffffff !important;
+}
+
+h2{
+    font-family: "Nunito", sans-serif;
+    color: white;   
+}
+
+.invalid{
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    color: red;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+    visibility: hidden;
+}
