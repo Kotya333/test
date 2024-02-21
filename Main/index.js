@@ -110,6 +110,7 @@ window.addEventListener("load", function (){
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
+                console.log(xhr.responseText);
                 var data = JSON.parse(xhr.responseText);
 
                 let q1 = document.getElementById("firstArticle");
