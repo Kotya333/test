@@ -102,7 +102,7 @@ answerDiv.addEventListener("mouseout", function() {
 
 window.addEventListener("load", function (){
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost:3333/', true);
+    xhr.open('GET', 'https://kotya333.github.io/test/server.js', true);
 
     xhr.send();
 
