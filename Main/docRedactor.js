@@ -96,7 +96,7 @@ document.addEventListener("keydown", function (e){
         }
 
 
-        const url = 'http://localhost:3333';
+        const url = 'https://kotya333.github.io/test/server.js';
 
         let q1 = document.getElementById("firstArticle").innerHTML;
         let q2 = document.getElementById("secondArticle").innerHTML;
